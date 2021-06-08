@@ -95,4 +95,18 @@ p{
 }
 
 
+.thegrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 6px;
+    grid-row-gap:6px;
+    margin: 5%;
+
+}
+
+.theelement{
+    background: grey;
+    padding: 20px 20px 20px 20px;
+
+}
 
