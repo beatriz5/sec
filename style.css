@@ -5,28 +5,24 @@ html,body{
 
 }
 
-h1{
-    color: #50b3f4;
+h1,h3{
+    color: #004785;
     font-family: 'Roboto', sans-serif;
+}
+
+
+
+p,a{
+    font-family: 'Quicksand', sans-serif;
+    color: #383838;
+    font-size: 18px;
 }
 
 a{
-    color: hotpink;
     text-decoration: none;
-    max-height: 100px;
-    max-width: 100px;
-    font-family: 'Quicksand', sans-serif;
 }
 
-p{
-    font-family: 'Quicksand', sans-serif;
 
-}
-
-h3{
-    font-family: 'Roboto', sans-serif;
-
-}
 .ima {
     width: 100%;
     height: 100vh;
@@ -39,14 +35,11 @@ h3{
     display: flex;
     position: fixed;
     background-color: white;
-    flex-flow: row wrap;
+    flex-flow: row;
     width: 100%;
     justify-content: flex-end;
     align-items: center;
-    max-height: 150px;
-    min-height: 10px;
-    height: 70px;
-    margin-right: 5vw;
+    max-height: 5rem;
     opacity: 70%;
     z-index: 3;
 
@@ -56,15 +49,12 @@ h3{
     padding-left: 2vw;
     padding-right: 2vw;
     align-items: baseline;
-
     font-family: 'Quicksand', sans-serif;
-    font-size: large;
-    max-height: 100px;
-    max-width: 100px;
-    margin-top: 0;
+
+
 
 }
-
+/*END Navigation Bar*/
 
 /*Middle 1 & 2*/
 .middle{
@@ -103,29 +93,21 @@ h3{
 
 }
 
-.card {
-    background-color: dodgerblue;
-    color: white;
-    padding: 1rem;
-    height: 4rem;
-    border-radius: 25px;
-    text-align: center;
-
-}
-
+/* Join */
 .grid {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-gap: 1rem;
 }
-
-.foo {
-    background-color: dodgerblue;
-    color: white;
+.card {
+    background-color: #dcedff;
+    color: #383838;
+    padding: 1rem;
+    height: 7rem;
+    border-radius: 25px;
+    text-align: center;
 }
-
-
 
 /* Screen larger than 600px? 2 column */
 @media (min-width: 600px) {
@@ -137,22 +119,31 @@ h3{
     .grid { grid-template-columns: repeat(3, 1fr); }
 }
 
+/*END OF JOIN*/
+
+
+
+
+
+
+
 .flex-container{
-    background-color: #004785;
+    background-color: #C6E5FA;
     color: white;
     display: flex;
     font-family: 'Montserrat', sans-serif;
     padding: 0.5em 0 0.5em 0;
     justify-content: center;
+    opacity: 70%;
 
 }
 
 .flex-item{
 
-    text-align: right;
+    text-align: center;
 
     line-height: 2em;
-    margin: 0 .5em 0 .5em;
+    margin: 0 5em 0 5em;
 
 }
 
